@@ -1,0 +1,24 @@
+{
+  "rooms": [
+    {
+      "id": "2",
+      "type": "Double",
+      "features": "AC, Free Wi-Fi, TV",
+      "available": true
+    },
+    {
+      "id": "3",
+      "type": "Single-Double",
+      "features": "AC, Free Wi-Fi, TV",
+      "available": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": "40ac",
+      "roomId": "2",
+      "checkIn": "2024-12-20",
+      "checkOut": "2024-12-26"
+    }
+  ]
+}

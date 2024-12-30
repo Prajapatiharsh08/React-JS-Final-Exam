@@ -1,0 +1,62 @@
+/* General Styles for the Reservation List Container */
+.reservation-list-container {
+    background-color: #f9fafb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-list-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  /* List Group Styles */
+  .reservation-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reservation-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .reservation-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Reservation Info Styles */
+  .reservation-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #7f8c8d;
+  }
+  
+  .reservation-info strong {
+    color: #34495e;
+  }
+  
+  /* Cancel Button Styling */
+  .cancel-btn {
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  .seacr-sort-container{
+    gap: 5px;
+  }

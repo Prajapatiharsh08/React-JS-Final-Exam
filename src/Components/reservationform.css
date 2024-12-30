@@ -1,0 +1,80 @@
+/* Reservation Form Container */
+.reservation-form-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-form-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group Styling */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .room-selection {
+    margin-bottom: 15px;
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #4caf50;
+    border-color: #4caf50;
+  }
+  
+  .btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+  }
+  
+  /* Rooms Display Section */
+  .rooms-display {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .rooms-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .room-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .room-card h5 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .room-card p {
+    margin: 5px 0;
+  }
+  
+  .room-card p:nth-child(2) {
+    font-style: italic;
+  }
+  
+  .room-card p:nth-child(3) {
+    color: green;
+  }
+  
+  .room-card p:nth-child(3):not(.available) {
+    color: red;
+  }
+  
